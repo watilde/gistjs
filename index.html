@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Gistjs by watilde</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/watilde/gistjs">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Gistjs</h1>
+            <h2>npm :heart: gist</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/watilde/gistjs/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/watilde/gistjs/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a name="gistjs" class="anchor" href="#gistjs"><span class="octicon octicon-link"></span></a>gistjs</h1>
+
+<p>node.js meet the gist</p>
+
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<p>Using npm.</p>
+
+<pre><code>$ npm install -g gistjs
+</code></pre>
+
+<h2>
+<a name="command" class="anchor" href="#command"><span class="octicon octicon-link"></span></a>Command</h2>
+
+<p>To upload the contents of <code>a.js</code> just:</p>
+
+<pre><code>$ gistjs a.js
+</code></pre>
+
+<p>Upload multiple files:</p>
+
+<pre><code>$ gistjs a b c
+$ gistjs *.js
+</code></pre>
+
+<p>Use -p to make the gist private:</p>
+
+<pre><code>$ gistjs -p a.js
+</code></pre>
+
+<p>Use -d to add a description:</p>
+
+<pre><code>$ gistjs -d "Hello World" a.js
+</code></pre>
+
+<h2>
+<a name="login" class="anchor" href="#login"><span class="octicon octicon-link"></span></a>Login</h2>
+
+<p>If you want to associate your gists with your GitHub account, you need to login with gistjs. It doesn't store your username and password, it just uses them to get an OAuth2 token (with the "gist" permission).</p>
+
+<pre><code>$ gistjs --login
+Obtaining OAuth2 access_token from github.
+GitHub username: watile
+GitHub password:
+Success! https://github.com/settings/applications
+</code></pre>
+
+<p>This token is stored in <code>/path/to/gistjs/.token</code> and used for all future gisting. If you need to you can revoke it from <a href="https://github.com/settings/applications">https://github.com/settings/applications</a>, or just delete the file.</p>
+
+<p>After you've done this, you can still upload gists anonymously with -a.</p>
+
+<pre><code>$ gistjs -a a.rb
+</code></pre>
+
+<h2>
+<a name="forked-frombased-on" class="anchor" href="#forked-frombased-on"><span class="octicon octicon-link"></span></a>forked from/based on</h2>
+
+<p>Thank you &lt;3
+<a href="https://github.com/defunkt/gist">https://github.com/defunkt/gist</a></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/watilde">watilde</a> can be found on <a href="https://github.com/watilde/gistjs">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
