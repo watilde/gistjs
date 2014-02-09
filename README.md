@@ -27,7 +27,7 @@ Use -d to add a description:
     $ gistjs -d "Hello World" a.js
 
 ## Login
-If you want to associate your gists with your GitHub account, you need to login with gist. It doesn't store your username and password, it just uses them to get an OAuth2 token (with the "gist" permission).
+If you want to associate your gists with your GitHub account, you need to login with gistjs. It doesn't store your username and password, it just uses them to get an OAuth2 token (with the "gist" permission).
 
     $ gistjs --login
     Obtaining OAuth2 access_token from github.
@@ -35,10 +35,11 @@ If you want to associate your gists with your GitHub account, you need to login 
     GitHub password:
     Success! https://github.com/settings/applications
 
-This token is stored in /path/to/gistjs/.token and used for all future gisting. If you need to you can revoke it from https://github.com/settings/applications, or just delete the file.
+This token is stored in `/path/to/gistjs/.token` and used for all future gisting. If you need to you can revoke it from https://github.com/settings/applications, or just delete the file.
 
 After you've done this, you can still upload gists anonymously with -a.
-    gist -a a.rb
+
+    $ gistjs -a a.rb
 
 
 ## forked from/based on
