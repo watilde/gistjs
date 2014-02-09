@@ -1,7 +1,7 @@
 {
   "name": "gistjs",
   "version": "0.0.1",
-  "description": "Gist Client npm",
+  "description": "The gist npm",
   "main": "lib/main",
   "bin": {
     "gistjs": "lib/cli.js"
