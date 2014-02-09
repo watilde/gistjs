@@ -1,7 +1,7 @@
 {
   "name": "gistjs",
-  "version": "0.0.0",
-  "description": "The gist npm",
+  "version": "0.0.1",
+  "description": "Gist Client npm",
   "main": "lib/main",
   "bin": {
     "gistjs": "lib/cli.js"
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/watilde/gistjs/issues"
   },
-  "homepage": "https://github.com/watilde/gistjs"
+  "homepage": "https://watilde.github.io/gistjs"
 }
