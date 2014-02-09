@@ -41,6 +41,11 @@ After you've done this, you can still upload gists anonymously with -a.
 
     $ gistjs -a a.js
 
+## Logout
+Remove `/path/to/gistjs/.token`
+
+    $ gistjs --logout
+
 ## Save other token
 You can save token when you have already got token.
 
