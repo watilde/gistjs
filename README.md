@@ -39,7 +39,7 @@ This token is stored in `/path/to/gistjs/.token` and used for all future gisting
 
 After you've done this, you can still upload gists anonymously with -a.
 
-    $ gistjs -a a.rb
+    $ gistjs -a a.js
 
 
 ## forked from / based on
