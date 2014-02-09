@@ -42,6 +42,5 @@ After you've done this, you can still upload gists anonymously with -a.
     $ gistjs -a a.rb
 
 
-## forked from/based on
-Thank you <3
-https://github.com/defunkt/gist
+## forked from / based on
+Thanks for [defunkt/gist](https://github.com/defunkt/gist) <3
