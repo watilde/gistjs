@@ -1,10 +1,10 @@
 {
   "name": "gistjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The gist npm",
   "main": "lib/main",
   "bin": {
-    "gistjs": "lib/cli.js"
+    "gistjs": "bin/gistjs"
   },
   "dependencies": {
     "async": "~0.2.10"
