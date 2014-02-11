@@ -1,5 +1,7 @@
 # gistjs
 
+[![Build Status](https://travis-ci.org/watilde/gistjs.png?branch=master)](https://travis-ci.org/watilde/gistjs)
+
 node.js meet the gist
 
 ## Install
