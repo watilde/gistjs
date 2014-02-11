@@ -38,7 +38,7 @@ If you want to associate your gists with your GitHub account, you need to login 
 
 You can read the 2-factor auth code from an sms or the authentification app, depending on how you [set your account up](https://github.com/settings/admin).
 
-Note: 2-factor authentication just appeared recently, so if you run into errors, update the gistjs npm.
+Note: 2-factor authentication [just appeared recently](https://github.com/blog/1614-two-factor-authentication), so if you run into errors, update the gistjs npm.
 
 ```
 npm update -g gistjs
