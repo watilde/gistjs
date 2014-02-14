@@ -33,9 +33,9 @@ If you want to associate your gists with your GitHub account, you need to login 
 
     $ gistjs --login
     Obtaining OAuth2 access_token from github.
-    GitHub username: watile
-    GitHub password:
-    2-factor auth code:
+    [?] GitHub username: watile
+    [?] GitHub password:
+    [?] 2-factor auth code:
     Success! https://github.com/settings/applications
 
 You can read the 2-factor auth code from an sms or the authentification app, depending on how you [set your account up](https://github.com/settings/admin).
