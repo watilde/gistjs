@@ -1,6 +1,9 @@
 # gistjs
 
-[![Build Status](https://travis-ci.org/watilde/gistjs.png?branch=master)](https://travis-ci.org/watilde/gistjs)
++ [![NPM Version](http://img.shields.io/npm/v/gistjs.svg)](https://www.npmjs.org/package/gistjs)
++ [![Build Status](https://travis-ci.org/watilde/gistjs.png?branch=master)](https://travis-ci.org/watilde/gistjs)
++ [![Dependency Status](https://gemnasium.com/watilde/gistjs.svg)](https://gemnasium.com/watilde/gistjs)
++ [![MIT LICENSE](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/watilde/chest/blob/master/LICENSE)
 
 node.js meet the gist
 
