@@ -65,5 +65,5 @@ You can save token when you have already got token.
 
     $ gistjs --save other_token
 
-## forked from / based on
+## based on
 Thanks for [defunkt/gist](https://github.com/defunkt/gist) <3
