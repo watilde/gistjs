@@ -5,7 +5,7 @@
 + [![Dependency Status](https://gemnasium.com/watilde/gistjs.svg)](https://gemnasium.com/watilde/gistjs)
 + [![MIT LICENSE](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/watilde/chest/blob/master/LICENSE)
 
-node.js meet the gist
+Node.js meets gist
 
 ## Install
 
