@@ -7,7 +7,7 @@
     "gistjs": "bin/gistjs"
   },
   "dependencies": {
-    "async": "^1.2.0",
+    "async": "^1.2.1",
     "grunt-cli": "^0.1.13",
     "inquirer": "^0.8.5"
   },
